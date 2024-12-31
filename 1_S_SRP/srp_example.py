@@ -1,5 +1,5 @@
 """ 
-S - Principio da Responsabilidade Única (SRP)
+S - Single Responsibility Principle (SRP) - Princípio da Responsabilidade Única
 
 "Um módulo deve ter um, e apenas um, motivo para alteração"
 
