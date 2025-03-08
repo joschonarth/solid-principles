@@ -5,7 +5,7 @@ Este repositório contém estudos e exemplos práticos sobre os cinco princípio
 ## Índice
 
 - [Responsabilidade Única - Single Responsibility Principle (SRP)](#responsabilidade-única---single-responsibility-principle-srp)
-- [Aberto-Fechado - Open/Closed Principle (OCP)](#aberto-fechado---open-closed-principle-ocp)
+- [Aberto-Fechado - Open-Closed Principle (OCP)](#aberto-fechado---open-closed-principle-ocp)
 - [Substituição de Liskov - Liskov Substitution Principle (LSP)](#substituição-de-liskov---liskov-substitution-principle-lsp)
 - [Segregação de Interface - Interface Segregation Principle (ISP)](#segregação-de-interface---interface-segregation-principle-isp)
 - [Inversão de Dependência - Dependency Inversion Principle (DIP)](#inversão-de-dependência---dependency-inversion-principle-dip)
