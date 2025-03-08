@@ -4,15 +4,15 @@ Este repositório contém estudos e exemplos práticos sobre os cinco princípio
 
 ## Índice
 
-- [Princípio da Responsabilidade Única (SRP)](#responsabilidade-única-srp)
-- [Princípio do Aberto-Fechado (OCP)](#aberto-fechado-ocp)
-- [Princípio da Substituição de Liskov (LSP)](#substituição-de-liskov-lsp)
-- [Princípio da Segregação de Interface (ISP)](#segregação-de-interface-isp)
-- [Princípio da Inversão de Dependência (DIP)](#inversão-de-dependência-dip)
+- [Responsabilidade Única - Single Responsibility Principle (SRP)](#responsabilidade-única---single-responsibility-principle-srp)
+- [Aberto-Fechado - Open/Closed Principle (OCP)](#aberto-fechado---open-closed-principle-ocp)
+- [Substituição de Liskov - Liskov Substitution Principle (LSP)](#substituição-de-liskov---liskov-substitution-principle-lsp)
+- [Segregação de Interface - Interface Segregation Principle (ISP)](#segregação-de-interface---interface-segregation-principle-isp)
+- [Inversão de Dependência - Dependency Inversion Principle (DIP)](#inversão-de-dependência---dependency-inversion-principle-dip)
 
 ---
 
-## Responsabilidade Única (SRP)
+## Responsabilidade Única - Single Responsibility Principle (SRP)
 
 O **Princípio da Responsabilidade Única (SRP)** afirma que **uma classe deve ter apenas uma razão para mudar**, ou seja, ela deve ser responsável por uma única tarefa.
 
@@ -47,7 +47,7 @@ class RepositorioFuncionario:
         pass
 ```
 
-## Aberto-Fechado (OCP)
+## Aberto-Fechado - Open-Closed Principle (OCP)
 
 O **Princípio do Aberto-Fechado (OCP)** afirma que **uma classe deve ser aberta para extensão, mas fechada para modificação**. Ou seja, devemos ser capazes de estender o comportamento de uma classe sem modificar seu código original.
 
@@ -84,7 +84,7 @@ class Calculadora:
         return operacao.executar(a, b)
 ```
 
-## Substituição de Liskov (LSP)
+## Substituição de Liskov - Liskov Substitution Principle (LSP)
 
 O **Princípio da Substituição de Liskov (LSP)** afirma que **os objetos de uma classe derivada devem poder ser substituídos por objetos da classe base sem alterar o comportamento correto do sistema**.
 
@@ -130,7 +130,7 @@ class Quadrado(Figura):
         return self.lado * self.lado
 ```
 
-## Segregação de Interface (ISP)
+## Segregação de Interface - Interface Segregation Principle (ISP)
 
 O **Princípio da Segregação de Interface (ISP)** afirma que **os clientes não devem ser forçados a depender de interfaces que não utilizam**.
 
@@ -175,7 +175,7 @@ class Multifuncional(Impressora, Digitalizadora):
         print("Digitalizando com Multifuncional")
 ```
 
-## Inversão de Dependência (DIP)
+## Inversão de Dependência - Dependency Inversion Principle (DIP)
 
 O **Princípio da Inversão de Dependência (DIP)** afirma que **módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender de abstrações**. Além disso, **abstrações não devem depender de detalhes, detalhes devem depender de abstrações**.
 
